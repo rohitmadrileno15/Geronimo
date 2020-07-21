@@ -26,7 +26,7 @@ def add_audio_and_video(video_ip , audio_ip , video_op):
 
     #removing the original input file
 
-    # os.remove(video_ip)
+    os.remove(video_ip)
     os.remove(audio_ip)
 
     return f"Video Available on {video_op}"
